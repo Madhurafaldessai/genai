@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #FFA500; /* Orange for headings */
+}
+
+a {
+    color: #00BFFF; /* Blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #1a1a1a;
+    padding: 10px;
+    text-align: center;
+}
+
+.sidebar {
+    background-color: #1a1a1a;
+    padding: 15px;
+    width: 200px;
+    float: left;
+}
+
+.main-content {
+    margin-left: 220px;
+    padding: 15px;
+}
+
+.alert {
+    background-color: #FF4500; /* Red for alerts */
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.health-bar {
+    height: 20px;
+    border-radius: 5px;
+}
+
+.worker-health {
+    background-color: #32CD32; /* LimeGreen for worker health */
+}
+
+.machine-performance {
+    background-color: #FFD700; /* Gold for machine performance */
+}
+
+.chart {
+    margin: 20px 0;
+}
